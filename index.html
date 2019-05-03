@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+    </style>
+    <link rel="stylesheet" href="assets/main.css">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="jquery.timeago.js" type="text/javascript"></script>
+    <script src="data_generator.js"></script>
+    <script src="app.js"></script>
+    <link rel="icon" type="image/png" href="assets/twitter.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/twitter-logo.png" sizes="16x16" />
+    <title>Twiddler</title>
+  </head>
+  <body>
+
+    <header>
+      <div id="title">
+        <h1>The Twiddler</h1>
+      </div>
+      <div id="logo">
+        <img src="assets/twitter-logo.png" width="200" alt="Twittler logo">
+      </div>
+    </header>
+
+    <section class="search">
+        <input class="searchInput" type="text" name="tweetSearch" placeholder="Search Twiddler">
+        <!-- <input class="searchButton" type="submit" value="Search"> -->
+    </section>
+
+    <section class="group">
+      <section class="side">
+        <div id="profile">
+        </div>
+        <div id="trends">
+          <h3>Trends</h3>
+          <ul class="hashtags">
+          </ul>
+        </div>
+      </section>
+
+      <section class="main">
+        <div id="newTweetInput">
+          <input class="newTweetText" type="text" name="tweetMessage" placeholder="What's happening?">
+        </div>
+        <div id="refreshArea">
+          <p>Refresh Tweets</p>
+        </div>
+        <div id="tweetStreamTitle">
+          <h2>Tweet Stream</h2>
+        </div>
+        <div class="tweets">
+          <ul class="tweets stream">
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <p>Created by <a >Matt Yee and Marvin Ho </a>   </p>
+    </footer>
+
+  </body>
+</html>
